@@ -25,7 +25,6 @@
  */
 @interface AnalysysAgentConfig : NSObject
 
-
 /**
  获取 AnalysysConfig 对象
  

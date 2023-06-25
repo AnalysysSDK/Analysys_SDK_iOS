@@ -8,7 +8,7 @@
 
 
 // *****************************************
-// ***** 当前 SDK 版本号：4.5.20.4 **************
+// ***** 当前 SDK 版本号：4.5.21 **************
 // *****************************************
 
 #import <Foundation/Foundation.h>
@@ -297,7 +297,7 @@
 /**
  获取陀螺仪加速器类对象，调用相关方法
  */
-+ (AnalysysSSManagerAAABBB *)getSSManager;
+
 
 #pragma mark - 全埋点功能模块接口
 
@@ -632,6 +632,14 @@ AnalysysAgent方法注销
  */
 + (void)trackCampaign:(id)userInfo isClick:(BOOL)isClick userCallback:(void(^)(id campaignInfo))userCallback;
 
++(void) setCacheDataLength:(int)length;
++(void) setCollectDataReverse:(BOOL)reverse;
++(void) setUseGravity:(BOOL)useGravity;
++(void) setRate:(float)rate;
+
++(void) setListenDuration:(int)duration;
++(void) startListen;
++(void) stopListen;
 
 @end
 
