@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
       s.summary          = 'This is the official iOS SDK for Analysys.'
       s.homepage         = 'https://github.com/AnalysysSDK/Analysys_SDK_iOS.git'
       s.author           = { 'analysys' => 'analysysSDK@analysys.com.cn' }
-      s.source           = { :git => 'https://github.com/AnalysysSDK/Analysys_SDK_iOS.git', :tag => s.version.to_s }
+      s.source           = { :git => 'https://github.com/AnalysysSDK/Analysys_SDK_iOS.git', :tag => s.version}
       s.ios.deployment_target = '9.0'
       
       s.frameworks   = 'UIKit', 'Foundation', 'SystemConfiguration', 'CoreTelephony', 'AdSupport', 'WebKit'
